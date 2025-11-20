@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastModified": "2025-11-20T00:19:15.3820078",
+    "applicationName": "CGPA Calculator"
+  },
+  "studentData": {
+    "currentCGPA": 3.75,
+    "cumulativeUnits": 45
+  },
+  "courses": [
+    {
+      "courseName": "Data Structures",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "Algorithms",
+      "units": 3,
+      "letterGrade": "B",
+      "gradePoints": 4.0
+    },
+    {
+      "courseName": "Database Systems",
+      "units": 4,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "Software Engineering",
+      "units": 3,
+      "letterGrade": "B",
+      "gradePoints": 4.0
+    }
+  ]
+}

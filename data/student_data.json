@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastModified": "2025-11-20T14:10:58.8525655",
+    "applicationName": "CGPA Calculator"
+  },
+  "studentData": {
+    "currentCGPA": 4.7,
+    "cumulativeUnits": 18
+  },
+  "courses": [
+    {
+      "courseName": "CSC 101",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "CSC 121",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "CSC 125",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "CSC 126",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "CSC 127",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    },
+    {
+      "courseName": "CSC 129",
+      "units": 3,
+      "letterGrade": "A",
+      "gradePoints": 5.0
+    }
+  ]
+}
