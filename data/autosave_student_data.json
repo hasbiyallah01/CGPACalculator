@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastModified": "2025-11-20T17:57:34.7595565",
+    "applicationName": "CGPA Calculator"
+  },
+  "studentData": {
+    "currentCGPA": 0.0,
+    "cumulativeUnits": 0
+  },
+  "courses": [
+  ]
+}

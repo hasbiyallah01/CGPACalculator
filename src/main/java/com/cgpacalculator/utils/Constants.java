@@ -31,6 +31,10 @@ public final class Constants {
     public static final int MAX_SEMESTER_UNITS = 24;
     public static final int MIN_CUMULATIVE_UNITS_FOR_CGPA = 24;
     
+    // CGPA Calculation Requirements
+    public static final boolean REQUIRE_ALL_FIELDS_FOR_CALCULATION = true;
+    public static final String ERROR_INCOMPLETE_DATA = "Please complete all required fields before calculating CGPA";
+    
     // CGPA Ranges
     public static final double MIN_CGPA = 0.00;
     public static final double MAX_CGPA = 5.00;

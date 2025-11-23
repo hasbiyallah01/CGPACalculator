@@ -142,6 +142,47 @@ import java.util.Map;public class ValidationResult {
         }
     }
     
+    // Method to get all error messages as ValidationMessage objects
+    public List<ValidationMessage> getErrorMessages() {
+        List<ValidationMessage> messages = new ArrayList<>();
+        
+        // Add field-specific errors
+        for (Map.Entry<String, String> fieldError : fieldErrorMessages.entrySet()) {
+            messages.add(new ValidationMessage(fieldError.getKey(), fieldError.getValue()));
+        }
+        
+        // Add general errors
+        for (String generalError : generalErrorMessages) {
+            messages.add(new ValidationMessage("General", generalError));
+        }
+        
+        return messages;
+    }
+    
+    // Inner class for validation messages
+    public static class ValidationMessage {
+        private final String field;
+        private final String message;
+        
+        public ValidationMessage(String field, String message) {
+            this.field = field;
+            this.message = message;
+        }
+        
+        public String getField() {
+            return field;
+        }
+        
+        public String getMessage() {
+            return message;
+        }
+        
+        @Override
+        public String toString() {
+            return field + ": " + message;
+        }
+    }
+    
     @Override
     public String toString() {
         StringBuilder resultStringBuilder = new StringBuilder("ValidationResult{");
